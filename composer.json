@@ -1,17 +1,13 @@
 {
   "name": "d3/oxidservicesbridges",
-  "description": "Order manager module for OXID eShop.",
+  "description": "Provides bridges for OXID services that are not reliably listed in the DIC cache.",
   "type": "oxideshop-component",
   "keywords": [
     "oxid",
-    "modules",
     "eShop",
-    "d3",
-    "ordermanager",
-    "orders",
-    "requirements",
-    "actions",
-    "tasks"
+    "services",
+    "bridges",
+    "d3"
   ],
   "authors": [
     {
@@ -23,11 +19,11 @@
   ],
   "homepage": "https://www.oxidmodule.com/",
   "license": [
-    "proprietary"
+    "MIT"
   ],
   "require": {
     "php": "^7.0 || ^8.0",
-    "oxid-esales/oxideshop-ce": "6.5 - 6.7"
+    "oxid-esales/oxideshop-ce": "6.5 - 6.8"
   },
   "autoload": {
     "psr-4": {
