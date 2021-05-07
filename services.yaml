@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    public: false
+
+  D3\OxidServicesBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
+    class: D3\OxidServicesBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
+    public: true

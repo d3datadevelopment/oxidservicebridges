@@ -1,0 +1,37 @@
+{
+  "name": "d3/oxidservicesbridges",
+  "description": "Order manager module for OXID eShop.",
+  "type": "oxideshop-component",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop",
+    "d3",
+    "ordermanager",
+    "orders",
+    "requirements",
+    "actions",
+    "tasks"
+  ],
+  "authors": [
+    {
+        "name": "D3 Data Development (Inh. Thomas Dartsch)",
+        "email": "info@shopmodule.com",
+        "homepage": "https://www.d3data.de",
+        "role": "Owner"
+    }
+  ],
+  "homepage": "https://www.oxidmodule.com/",
+  "license": [
+    "proprietary"
+  ],
+  "require": {
+    "php": "^7.0 || ^8.0",
+    "oxid-esales/oxideshop-ce": "6.5 - 6.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "D3\\OxidServicesBridges\\": "./"
+    }
+  }
+}
