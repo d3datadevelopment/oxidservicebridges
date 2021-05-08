@@ -13,7 +13,7 @@
 
 declare(strict_types=1);
 
-namespace D3\OxidServicesBridges\Internal\Framework\Module\Path;
+namespace D3\OxidServiceBridges\Internal\Framework\Module\Path;
 
 interface ModulePathResolverBridgeInterface
 {

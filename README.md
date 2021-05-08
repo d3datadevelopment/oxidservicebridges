@@ -5,9 +5,9 @@ Provides bridges for OXID services that are not reliably listed in the DIC cache
 
 ## Install
 
-`composer require d3/oxidservicesbridges`
+`composer require d3/oxidservicebridges`
 
-## Licence of this software (d3/oxidservicesbridges) [MIT]
+## Licence of this software (d3/oxidservicebridges) [MIT]
 
 (06.05.2021)
 

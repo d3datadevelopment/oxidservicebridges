@@ -1,5 +1,5 @@
 {
-  "name": "d3/oxidservicesbridges",
+  "name": "d3/oxidservicebridges",
   "description": "Provides bridges for OXID services that are not reliably listed in the DIC cache.",
   "type": "oxideshop-component",
   "keywords": [
@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "D3\\OxidServicesBridges\\": "./"
+      "D3\\OxidServiceBridges\\": "./"
     }
   }
 }

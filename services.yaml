@@ -3,6 +3,6 @@ services:
     autowire: true
     public: false
 
-  D3\OxidServicesBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
-    class: D3\OxidServicesBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
+  D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
+    class: D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
     public: true
