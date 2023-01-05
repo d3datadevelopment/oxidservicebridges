@@ -1,6 +1,6 @@
 services:
   _defaults:
-    autowire: true
+    autowire: false
     public: true
 
   D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
@@ -11,3 +11,9 @@ services:
 
   OxidEsales\Smarty\Module\Setup\EventSubscriber\InstallSmartyExtensionEventsSubscriber:
     alias: 'oxid_esales.smarty.setup.eventsubscriber.install_smarty_extension_events_subscriber'
+
+  D3\OxidServiceBridges\Internal\Framework\Module\Cache\InvalidateModuleCacheEventSubscriberBridgeInterface:
+    class: D3\OxidServiceBridges\Internal\Framework\Module\Cache\InvalidateModuleCacheEventSubscriberBridge
+    
+  OxidEsales\EshopCommunity\Internal\Framework\Module\Cache\InvalidateModuleCacheEventSubscriber:
+    alias: 'oxid_esales.module.cache.invalidate_module_cache_event_subscriber'
