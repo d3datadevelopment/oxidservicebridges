@@ -8,3 +8,6 @@ services:
 
   D3\OxidServiceBridges\Smarty\Module\Setup\EventSubscriber\InstallSmartyExtensionEventsSubscriberBridgeInterface:
     class: D3\OxidServiceBridges\Smarty\Module\Setup\EventSubscriber\InstallSmartyExtensionEventsSubscriberBridge
+
+  OxidEsales\Smarty\Module\Setup\EventSubscriber\InstallSmartyExtensionEventsSubscriber:
+    alias: 'oxid_esales.smarty.setup.eventsubscriber.install_smarty_extension_events_subscriber'
