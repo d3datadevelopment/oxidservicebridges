@@ -8,3 +8,10 @@ services:
 
   D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
     class: D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
+
+  D3\OxidServiceBridges\Internal\Framework\Module\Setup\Bridge\TemplateBlockModuleSettingHandlerBridgeInterface:
+    class: D3\OxidServiceBridges\Internal\Framework\Module\Setup\Bridge\TemplateBlockModuleSettingHandlerBridge
+    public: true
+    arguments:
+      $templateBlockModuleSettingHandlerService: '@oxid_esales.module.setup.template_blocks_module_setting_handler'
+
