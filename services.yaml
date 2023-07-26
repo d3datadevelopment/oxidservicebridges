@@ -3,8 +3,5 @@ services:
     autowire: true
     public: true
 
-  D3\OxidServiceBridges\Doctrine\DBAL\ConnectionBridgeInterface:
-    class: D3\OxidServiceBridges\Doctrine\DBAL\ConnectionBridge
-
   D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
     class: D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
