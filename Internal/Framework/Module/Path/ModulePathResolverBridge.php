@@ -22,7 +22,7 @@ class ModulePathResolverBridge implements ModulePathResolverBridgeInterface
     /**
      * @var ModulePathResolverInterface
      */
-    private $modulePathResolver;
+    private ModulePathResolverInterface $modulePathResolver;
 
     public function __construct(
         ModulePathResolverInterface $modulePathResolver
