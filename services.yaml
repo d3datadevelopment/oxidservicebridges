@@ -5,3 +5,6 @@ services:
 
   D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridgeInterface:
     class: D3\OxidServiceBridges\Internal\Framework\Module\Path\ModulePathResolverBridge
+
+  D3\OxidServiceBridges\Internal\Framework\Templating\Cache\ShopTemplateCacheServiceBridgeInterface:
+    class: D3\OxidServiceBridges\Internal\Framework\Templating\Cache\ShopTemplateCacheServiceBridge
